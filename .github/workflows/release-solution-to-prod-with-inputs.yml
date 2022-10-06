@@ -91,6 +91,10 @@ jobs:
         solution-output-file: ${{ inputs.solution_shipping_folder}}/${{ inputs.solution_name }}.zip
 
     - run: ls
+    - run: cd out
+    - run: ls
+    - run: cd ship
+    - run: ls
       
     - name: Upload the ready to ship solution to GH artifact store
       uses: actions/upload-artifact@v2
