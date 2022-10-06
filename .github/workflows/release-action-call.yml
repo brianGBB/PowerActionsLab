@@ -19,3 +19,4 @@ jobs:
       TENANT_ID: 088f6d63-df38-4924-889d-f87e500e139e      
     secrets:
       envSecret: ${{ secrets.PowerPlatformSPN }}
+ 
